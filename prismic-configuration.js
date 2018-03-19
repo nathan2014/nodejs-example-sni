@@ -1,6 +1,6 @@
 module.exports = {
 
-  apiEndpoint: 'https://your-repo-name.prismic.io/api/v2',
+  apiEndpoint: 'https://mybest.prismic.io/api/v2',
 
   // -- Access token if the Master is not open
   // accessToken: 'xxxxxx',
@@ -9,7 +9,7 @@ module.exports = {
   // clientId: 'xxxxxx',
   // clientSecret: 'xxxxxx',
   
-  snipcartKey: 'your-snipcart-api-key',
+  snipcartKey: 'YWYwZTI4NjItNGMwZC00MDFkLTgwMmEtZGI2NGJjNjc3Yzk2NjM2Mzk5MTg1MzI4OTAxODg3',
   
   // -- Links resolution rules
   // This function will be used to generate links to Prismic.io documents
