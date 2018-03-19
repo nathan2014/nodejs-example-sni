@@ -3,18 +3,3 @@
   to = "https://cabeachsigns.herokuapp.com/"
   status = 200
   force = true # Ensure that we always redirect
-[[redirects]]
-  from = "/views"
-  to = "https://cabeachsigns.herokuapp.com/"
-  status = 200
-  force = true # Ensure that we always redirect
-  [[redirects]]
-  from = "/public"
-  to = "https://cabeachsigns.herokuapp.com/"
-  status = 200
-  force = true # Ensure that we always redirect
-  [[redirects]]
-  from = "/custom_types"
-  to = "https://cabeachsigns.herokuapp.com/"
-  status = 200
-  force = true # Ensure that we always redirect
