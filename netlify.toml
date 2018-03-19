@@ -3,3 +3,14 @@
   to = "https://cabeachsigns.herokuapp.com/"
   status = 200
   force = true # Ensure that we always redirect
+  
+  [[redirects]]
+  from = "/category/"
+  to = "https://cabeachsigns.herokuapp.com/"
+  status = 200
+  force = true # Ensure that we always redirect
+  [[redirects]]
+  from = "/product/"
+  to = "https://cabeachsigns.herokuapp.com/"
+  status = 200
+  force = true # Ensure that we always redirect
