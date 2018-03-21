@@ -6,7 +6,7 @@
   force = true # Ensure that we always redirect
   
   [[redirects]]
-  from = "/category/wood-beach-signs*"
+  from = "/category/beach-house-signs"
   to = "https://cabeachsigns.herokuapp.com/category/wood-beach-signs"
   status = 200
   force = true # Ensure that we always redirect
