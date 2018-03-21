@@ -28,8 +28,6 @@ nav.main-nav
         |  has been added to your cart!
   - var mainNav = layoutContent ? layoutContent.data.mainNav : []
   ul
-    li
-      a(href="/") Everything
     each mainLink in mainNav
       - var mainURL = PrismicDOM.Link.url(mainLink.link, ctx.linkResolver)
       li 
