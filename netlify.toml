@@ -1,16 +1,1 @@
-[[redirects]]
-  from = "/"
-  to = "https://cabeachsigns.herokuapp.com/"
-  status = 200
-  force = true # Ensure that we always redirect
-  
-  [[redirects]]
-  from = "/category/wood-beach-signs*"
-  to = "https://cabeachsigns.herokuapp.com/category/wood-beach-signs"
-  status = 200
-  force = true # Ensure that we always redirect
-  [[redirects]]
-  from = "/product/mermaids-drink-free"
-  to = "https://cabeachsigns.herokuapp.com/product/mermaids-drink-free"
-  status = 200
-  force = true # Ensure that we always redirect
+
