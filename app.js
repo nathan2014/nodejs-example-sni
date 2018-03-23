@@ -163,8 +163,6 @@ app.route('/').get(function(req, res) {
     // Render the listing page
     res.render('listing', {products: products.results});
     });
-  //Render home text
-   res.render ('first');
 });
 
 
