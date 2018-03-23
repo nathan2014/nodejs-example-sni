@@ -152,7 +152,7 @@ app.route('/category/:uid').get(function(req, res) {
 
 
 // Route for the homepage
-app.route('/').get('/first' ,function(req, res) {
+app.route('/').get(function(req, res) {
   
   // Query all the products and order by their dates
   req.prismic.api.query(
@@ -162,7 +162,9 @@ app.route('/').get('/first' ,function(req, res) {
 
     // Render the listing page
     res.render('listing', {products: products.results});
-  });
+    });
+  //Render home text
+   res.render ('first');
 });
 
 
