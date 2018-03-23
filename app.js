@@ -120,7 +120,6 @@ app.route('/product/:uid').get(function(req, res) {
   });
 });
 
-
 // Route for categories
 app.route('/category/:uid').get(function(req, res) {
   
@@ -153,7 +152,7 @@ app.route('/category/:uid').get(function(req, res) {
 
 
 // Route for the homepage
-app.route('/').get(function(req, res) {
+app.route('/').get('/first' ,function(req, res) {
   
   // Query all the products and order by their dates
   req.prismic.api.query(
