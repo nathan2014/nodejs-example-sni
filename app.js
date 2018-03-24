@@ -66,7 +66,7 @@ app.route('/about-us').get((req, res, next) => {
     }
     
     // Define the layout content
-    res.locals.layoutContent = layoutContent;
+    res.locals.customlayoutContent = layoutContent;
     next();
   });
 });
