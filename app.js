@@ -175,6 +175,5 @@ app.route('/').get(function(req, res) {
 
 // Route that catches any other url and renders the 404 page
 app.route('/:url').get(function(req, res) {
-  req.prismic.api.getSingle('customlayout').then(function(req,res){
     render404(req, res);
 });
