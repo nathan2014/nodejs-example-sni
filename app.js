@@ -56,20 +56,7 @@ app.route('*').get((req, res, next) => {
     next();
   });
 });
-//custom
-app.route('/about-us').get((req, res, next) => {
-  req.prismic.api.getSingle('customlayout').then(function(layoutContent){
-    
-    // Give an error if no layout custom type is found
-    if (!layoutContent) {
-      res.status(500).send('No Layout document was found.');
-    }
-    
-    // Define the layout content
-    res.locals.layoutContent = layoutContent;
-    next();
-  });
-});
+
 
 
 /*
