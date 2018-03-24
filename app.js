@@ -58,13 +58,8 @@ app.route('*').get((req, res, next) => {
 });
 //custom
 app.route('/about-us').get((req, res, next) => {
-  req.prismic.api.getSingle('customlayout').then(function(layoutContent){
-    
-  
-    
-    // Define the layout content
-    res.locals.layoutContent = layoutContent;
-    next();
+  req.prismic.api.getSingle('customlayout').then(function(req,res){
+   res.render ('about' req, res)
   });
 });
 
