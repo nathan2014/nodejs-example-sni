@@ -171,7 +171,3 @@ app.route('/:url').get(function(req, res) {
   render404(req, res);
 });
 
-app.route('/about.html').get(function(req, res) {
-  res.render('about' req, res);
-});
-
