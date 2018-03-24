@@ -9,9 +9,5 @@
   to = "https://cabeachsigns.herokuapp.com/category/beach-house-signs"
   status = 200
   force = true # Ensure that we always redirect
-  [[redirects]]
-  from = "/product/mermaids-drink-free"
-  to = "https://cabeachsigns.herokuapp.com/product/mermaids-drink-free"
-  status = 200
-  force = true # Ensure that we always redirect
+  
 
