@@ -303,7 +303,7 @@ app.route('/category/:uid').get(function(req, res) {
 
 
 // Route for the homepage
-app.route('/').get(function(req, res) {
+app.route('/index.html').get(function(req, res) {
   
   // Query all the products and order by their dates
   req.prismic.api.query(
