@@ -7,6 +7,27 @@
         "single" : "heading1"
       }
     },
+    "meta-title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "meta title"
+      }
+    },
+    "meta-description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "meta description"
+      }
+    },
+    "canonical" : {
+      "fieldset" : "Canonical URL",
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Select the category to use in the canonical URL",
+        "select" : "document",
+        "masks" : [ "brewery", "country" ]
+      }
+    },
     "logo" : {
       "type" : "Image",
       "fieldset" : "Site Logo"
@@ -28,17 +49,16 @@
               "select" : "document",
               "customtypes" : [ "category" ],
               "placeholder" : "Link to a category"
-            
-            "Main" : {
-    "title" : {
-      "type" : "StructuredText",
-      "config" : {
-        "placeholder" : "Document body...",
-        "single" : "body"
-      }
-     }
+            }
           }
         }
+      }
+    },
+    "body2" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "body2"
       }
     }
   }
