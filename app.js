@@ -57,11 +57,12 @@ app.route('*').get((req, res, next) => {
   });
 });
 //custom
-app.route('/about-us' req, res) {
-  req.prismic.api.getSingle('customlayout'){
-  res.render('about' req,res)
-  }
-  }
+app.route('about-us').get((req, res, next) => {
+  req.prismic.api.getSingle('customlayout').then(function(layoutContent){
+     res.locals.layoutContent = layoutContent;
+    next();
+  });
+});
 
 
 /*
@@ -174,5 +175,6 @@ app.route('/').get(function(req, res) {
 
 // Route that catches any other url and renders the 404 page
 app.route('/:url').get(function(req, res) {
-  render404(req, res);
+  req.prismic.api.getSingle('customlayout').then(function(req,res){
+    render404(req, res);
 });
