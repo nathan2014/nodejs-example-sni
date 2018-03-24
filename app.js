@@ -57,7 +57,7 @@ app.route('*').get((req, res, next) => {
   });
 });
 //custom
-app.route('*').get((req, res, next) => {
+app.route('about-us').get((req, res, next) => {
   req.prismic.api.getSingle('customlayout').then(function(layoutContent){
     
     // Give an error if no layout custom type is found
