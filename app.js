@@ -59,7 +59,7 @@ app.route('*').get((req, res, next) => {
 //custom
 app.route('about-us').get((req, res, next) => {
   req.prismic.api.getSingle('customlayout').then(function(layoutContent){
-     res.locals.layoutContent = layoutContent;
+     res.locals.customlayoutContent = layoutContent;
     next();
   });
 });
