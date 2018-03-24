@@ -169,6 +169,8 @@ app.route('/').get(function(req, res) {
 // Route that catches any other url and renders the 404 page
 app.route('/:url').get(function(req, res) {
   render404(req, res);
+});
+app.route('/about'function(req, res) {
   res.render('about' req, res);
 });
 
