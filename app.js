@@ -170,7 +170,3 @@ app.route('/').get(function(req, res) {
 app.route('/:url').get(function(req, res) {
   render404(req, res);
 });
-app.route('/about'function(req, res) {
-  res.render('about' req, res);
-});
-
