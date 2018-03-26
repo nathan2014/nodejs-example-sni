@@ -262,7 +262,6 @@ body.contact {
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: #005cc56b;
 }
 
 .contactcontainer {
@@ -270,6 +269,7 @@ body.contact {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  background: #005cc56b
 }
 
 #contact input[type="text"],
