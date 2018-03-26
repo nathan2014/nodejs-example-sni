@@ -345,3 +345,31 @@ app.route('/').get(function(req, res) {
 app.route('/:url').get(function(req, res) {
     render404(req, res);
 });
+
+// recursively fetch all pages fi sitemap
+function getPage(api, page, documents) {
+  return api.query(
+    prismic.Predicates.any("document.type", ["page", "post"]),
+    { page: page, pageSize: 100, fetch: [] }
+  ).then(function(response) {
+    if (response.next_page !== null) {
+      return getPage(api, page + 1, documents.concat(response.results));
+    } else {
+      return documents.concat(response.results);
+    }
+  });
+}
+
+app.route('/sitemap.txt').get(function (req, res) {
+  prismic.api(configuration.apiEndpoint).then(function(api) {
+    return getPage(api, 1, []);
+  }).then(function(documents) {
+    var body = "";
+    documents.forEach(function(doc) {
+      body += (req.protocol + '://' + req.headers.host + configuration.linkResolver(doc) + "\r\n");
+    });
+    res.send(body);
+  }).catch(function(err) {
+    res.status(500).send("Error: " + err.message);
+  });
+});
