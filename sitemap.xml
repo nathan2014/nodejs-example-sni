@@ -1,107 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.cabeachsigns.com/</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/contact.html</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/mermaid-box-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/pissed-mermaid-string-beach-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/happy-place-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/starfish-wish-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/love-sunset-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/flip-flops-wood-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/keep-calm-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/memories-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/lifes-better-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/love-beach-clam-hanging-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/kinda-pissed-mermaid-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/mermaid-kisses-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/beach-house-rules-sayings-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/only-fish-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/ocean-breeze-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/vintage-arrow-beach-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.cabeachsigns.com/product/heaven-beach-house-sign</loc>
-  <lastmod>2018-03-26T21:47:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.cabeachsigns.com/</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/kinda-pissed-mermaid-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/love-beach-clam-hanging-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/heaven-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/ocean-breeze-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/contact.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/mermaid-kisses-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/keep-calm-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/happy-place-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/lifes-better-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/beach-house-rules-sayings-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/memories-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/only-fish-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/TandC.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/about.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/privacy.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/mermaid-box-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/starfish-wish-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/mermaids-drink-free</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/pissed-mermaid-string-beach-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/returns.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/love-sunset-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/vintage-arrow-beach-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/flip-flops-wood-beach-house-sign</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/about.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.cabeachsigns.com/product/contact.html</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
